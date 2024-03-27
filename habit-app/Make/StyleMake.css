@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*style*/
+.input{
+    display: flex;
+    flex-direction: column;
+}
+
+.inp-habit, .jumlah-hari{
+    border-style: none;
+    border-bottom: 2px solid #32d1c1;
+    width: 70%;
+    height: 30px;
+    outline: none;
+}
+
+h2{
+    text-align: center;
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 10vw;
+    width: 1000px;
+
+    color: darkslateblue;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.btn-create{
+    /*border*/
+    border: #32d1c1;
+    border-style: solid;
+    background-color: #32d1c1;
+    border-radius: 10px;
+
+    /*Ukuran*/
+    width: 20vw;
+    height: 15vw;
+
+    /*Text*/
+    color: white;
+}
+
+
+
+/*Position*/
+.input{
+    margin: 30vw  0 10vw 20vw;
+}
+
+
+.inp-habit, .jumlah-hari{
+    margin-top: 20vw;
+}
+
+.btn-create{
+    margin-top: 40%;
+    margin-left: 70%;
+}
+

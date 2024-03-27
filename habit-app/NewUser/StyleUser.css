@@ -1,0 +1,41 @@
+*{
+    padding:0;
+    margin: 0;
+}
+
+.ask-username{
+    /*input text*/
+    border-style: none;
+    border-bottom: 2px solid #32d1c1;
+    width: 70%;
+    height: 30px;
+    outline: none;
+
+    /*Position*/   
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.next-button{
+    /*border*/
+    border: #32d1c1;
+    border-style: solid;
+    background-color: #32d1c1;
+    border-radius: 10px;
+
+    /*Ukuran*/
+    width: 60px;
+    height: 30px;
+
+    /*Text*/
+    color: white;
+
+    /*Position*/
+    position: absolute;
+    left: 80%;
+    top: 60%;
+    transform: translate(-50%,-50%);
+}
+
